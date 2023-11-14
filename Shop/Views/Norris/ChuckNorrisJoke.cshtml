@@ -1,0 +1,9 @@
+﻿@model Shop.Models.ChuckNorrisJokeViewModel
+
+@{
+    ViewData["Title"] = "Chuck Norris Joke";
+}
+
+<h2>@DateTime.Now.ToString("dd MMMM yyyy")</h2>
+<h3>Joke of the Day</h3>
+<p>@Model.Joke</p>

@@ -1,0 +1,17 @@
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.ApplicationServices.deps.json
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.ApplicationServices.dll
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.ApplicationServices.pdb
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.Core.dll
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.Data.dll
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.Core.pdb
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\bin\Debug\net6.0\Shop.Data.pdb
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.AssemblyInfo.cs
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.csproj.CopyComplete
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.dll
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\refint\Shop.ApplicationServices.dll
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\Shop.ApplicationServices.pdb
+C:\Users\opilane\source\repos\ShopTARgv22-master\Shop\Shop.ApplicationServices\obj\Debug\net6.0\ref\Shop.ApplicationServices.dll

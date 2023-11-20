@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9EJ5375oztmAaPVjLAnUuHS5l5Na5/TrZjXZX40fGbgWtTCncM4W7y8jIljDMdSs6/o/Q8xXzqhDpaWKRexHpg==",
+  "dgSpecHash": "mO2ah7SeP7vzhjCjfpa8/AuYdHtKmWP3FYwj3sZeA3MqbrNuneJ+B0C3+UCD4DA+w7W7Z7lPO1QVpuOSitGfZA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\opilane\\source\\repos\\ShopTARgv22-master\\Shop\\Shop.Core\\Shop.Core.csproj",
+  "projectFilePath": "C:\\Users\\clash\\OneDrive\\Документы\\GitHub\\ShopTAR\\Shop.Core\\Shop.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
-    "C:\\Users\\opilane\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
-    "C:\\Users\\opilane\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+    "C:\\Users\\clash\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\clash\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\clash\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
   ],
   "logs": []
 }

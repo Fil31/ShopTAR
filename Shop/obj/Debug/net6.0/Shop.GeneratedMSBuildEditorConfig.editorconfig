@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\opilane\source\repos\ShopTAR\Shop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Bar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/opilane/source/repos/ShopTAR/Shop/Views/ChuckNorris/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y2tOb3JyaXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

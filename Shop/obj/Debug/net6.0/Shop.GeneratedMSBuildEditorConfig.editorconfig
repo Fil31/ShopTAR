@@ -5,109 +5,108 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Shop
 build_property.RootNamespace = Shop
-build_property.ProjectDir = C:\Users\clash\OneDrive\Документы\GitHub\ShopTAR\Shop\
+build_property.ProjectDir = C:\Users\opilane\source\repos\ShopTAR\Shop\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\clash\OneDrive\Документы\GitHub\ShopTAR\Shop
+build_property.MSBuildProjectDirectory = C:\Users\opilane\source\repos\ShopTAR\Shop
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Bar.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Bar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/ChuckNorris/Index.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/ChuckNorris/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y2tOb3JyaXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/ChuckNorris/Joke.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/ChuckNorris/Joke.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y2tOb3JyaXNcSm9rZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Cocktails/Cocktail.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Cocktails/Cocktail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxzXENvY2t0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Cocktails/Index.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Cocktails/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29ja3RhaWxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Home/Index.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Home/Privacy.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/OpenWeathers/City.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/OpenWeathers/City.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlbldlYXRoZXJzXENpdHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/OpenWeathers/Index.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/OpenWeathers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlbldlYXRoZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/RealEstates/CreateUpdate.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/RealEstates/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcQ3JlYXRlVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/RealEstates/Delete.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/RealEstates/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/RealEstates/Details.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/RealEstates/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/RealEstates/Index.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/RealEstates/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/RealEstates/_Images.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/RealEstates/_Images.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVhbEVzdGF0ZXNcX0ltYWdlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Shared/Error.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Spaceships/CreateUpdate.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Spaceships/CreateUpdate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xDcmVhdGVVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Spaceships/Delete.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Spaceships/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Spaceships/Details.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Spaceships/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Spaceships/Index.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Spaceships/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Spaceships/_Images.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Spaceships/_Images.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3BhY2VzaGlwc1xfSW1hZ2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/_ViewImports.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/_ViewStart.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/clash/OneDrive/Документы/GitHub/ShopTAR/Shop/Views/Shared/_Layout.cshtml]
+[C:/Users/opilane/source/repos/ShopTAR/Shop/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-bv1m2l6qkp

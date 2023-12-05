@@ -1,13 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shop.ApplicationServices.Services;
 using Shop.Core.Dto;
-using Shop.Core.Dto.AccuWeatherDtos;
 using Shop.Core.ServiceInterface;
-using Shop.Models.AccuWeathers;
 using Shop.Models.Email;
 using Org.BouncyCastle.Ocsp;
 
-namespace TARgv22Shop.Controllers
+namespace Shop.Controllers
 {
     public class EmailController : Controller
     {
@@ -36,10 +34,10 @@ namespace TARgv22Shop.Controllers
                 };
 
                 _emailServices.SendEmail(dto);
-                return View(nameof(Index));
+                return View(model);
             }
 
-            return View(model);
+            return View(nameof(Index));
         }
     }
 }

@@ -1,6 +1,6 @@
-﻿namespace TARgv22Shop.Models.Email
+﻿namespace Shop.Models.Email
 {
-    public class SendEmailViewModel
+    public class SendEmailViewModel 
     {
         public string To { get; set; }
         public string Subject { get; set; }

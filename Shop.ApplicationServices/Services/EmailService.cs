@@ -1,17 +1,11 @@
-﻿using Shop.Core.ServiceInterface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using Shop.Core.Dto;
+using Shop.Core.ServiceInterface;
+using Microsoft.Extensions.Configuration;
 
 using MailKit.Net.Smtp;
 using MailKit;
 using MimeKit;
 using MailKit.Security;
-using Microsoft.Extensions.Configuration;
-using System.Net.Mail;
 
 namespace Shop.ApplicationServices.Services
 {
@@ -41,7 +35,7 @@ namespace Shop.ApplicationServices.Services
                 Text = req.Body
             };
 
-            using (var smtp = new SmtpClient())
+            using (var smtp = new MailKit.Net.Smtp.SmtpClient())
             {
                 smtp.Connect(host_, 587, SecureSocketOptions.StartTls);
 

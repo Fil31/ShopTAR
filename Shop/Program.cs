@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Shop.ApplicationServices.Services;
+using Microsoft.Extensions.DependencyInjection;
 using Shop.Core.ServiceInterface;
 using Shop.Data;
 
@@ -19,7 +20,7 @@ builder.Services.AddScoped<IRealEstatesServices, RealEstatesServices>();
 builder.Services.AddScoped<IWeatherForecastServices, WeatherForecastServices>();
 builder.Services.AddScoped<IChuckNorrisServices, ChuckNorrisServices>();
 builder.Services.AddScoped<ICocktailServices, CocktailServices>();
-builder.Services.AddScoped<IEmailService, EmailService>();
+builder.Services.AddScoped<IEmailServices, EmailServices>();
 
 var app = builder.Build();
 

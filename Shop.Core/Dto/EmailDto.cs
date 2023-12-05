@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Shop.Core.Dto
 {
-    internal class EmailDto
+    public class EmailDto
     {
+        public string To { get; set; }
+        public string Subject { get; set; }
+        public string Body { get; set; }
     }
 }

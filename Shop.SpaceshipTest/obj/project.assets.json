@@ -8720,23 +8720,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\opilane\\.nuget\\packages\\": {},
+    "C:\\Users\\clash\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\opilane\\source\\repos\\ShopTAR\\Shop.SpaceshipTest\\Shop.SpaceshipTest.csproj",
+      "projectUniqueName": "C:\\Users\\clash\\OneDrive\\Desktop\\shop\\ShopTAR\\Shop.SpaceshipTest\\Shop.SpaceshipTest.csproj",
       "projectName": "Shop.SpaceshipTest",
-      "projectPath": "C:\\Users\\opilane\\source\\repos\\ShopTAR\\Shop.SpaceshipTest\\Shop.SpaceshipTest.csproj",
-      "packagesPath": "C:\\Users\\opilane\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\opilane\\source\\repos\\ShopTAR\\Shop.SpaceshipTest\\obj\\",
+      "projectPath": "C:\\Users\\clash\\OneDrive\\Desktop\\shop\\ShopTAR\\Shop.SpaceshipTest\\Shop.SpaceshipTest.csproj",
+      "packagesPath": "C:\\Users\\clash\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\clash\\OneDrive\\Desktop\\shop\\ShopTAR\\Shop.SpaceshipTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\opilane\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\clash\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8752,8 +8752,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\opilane\\source\\repos\\ShopTAR\\Shop.ApplicationServices\\Shop.ApplicationServices.csproj": {
-              "projectPath": "C:\\Users\\opilane\\source\\repos\\ShopTAR\\Shop.ApplicationServices\\Shop.ApplicationServices.csproj"
+            "C:\\Users\\clash\\OneDrive\\Desktop\\shop\\ShopTAR\\Shop.ApplicationServices\\Shop.ApplicationServices.csproj": {
+              "projectPath": "C:\\Users\\clash\\OneDrive\\Desktop\\shop\\ShopTAR\\Shop.ApplicationServices\\Shop.ApplicationServices.csproj"
             }
           }
         }
@@ -8813,7 +8813,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

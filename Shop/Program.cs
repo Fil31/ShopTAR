@@ -4,7 +4,7 @@ using Shop.ApplicationServices.Services;
 using Microsoft.Extensions.DependencyInjection;
 using Shop.Core.ServiceInterface;
 using Shop.Data;
-
+using Shop.ApplicationServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +21,7 @@ builder.Services.AddScoped<IWeatherForecastServices, WeatherForecastServices>();
 builder.Services.AddScoped<IChuckNorrisServices, ChuckNorrisServices>();
 builder.Services.AddScoped<ICocktailServices, CocktailServices>();
 builder.Services.AddScoped<IEmailServices, EmailServices>();
+builder.Services.AddScoped<IKindergartenServices, KindergartenServices>();
 
 var app = builder.Build();
 

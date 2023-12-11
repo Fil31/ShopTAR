@@ -3,7 +3,6 @@ using Shop.Core.Domain;
 using Shop.Core.Dto;
 using Shop.Core.ServiceInterface;
 using Shop.Data;
-using Shop.Data.Migrations;
 
 
 namespace Shop.ApplicationServices.Services
@@ -49,6 +48,17 @@ namespace Shop.ApplicationServices.Services
             return realEstate;
         }
 
+        public async Task<FileToDatabase> RemoveImagesFromDatabase(Guid id)
+        {
+            var images = await _context.FileToDatabases
+                .Where(x => x.RealEstateId == id)
+                .ToArrayAsync();
+
+            _context.FileToDatabases.RemoveRange(images);
+            await _context.SaveChangesAsync();
+
+            return null;
+        }
 
         public async Task<RealEstate> Update(RealEstateDto dto)
         {
@@ -80,7 +90,7 @@ namespace Shop.ApplicationServices.Services
         {
             var realEstateId = await _context.RealEstates
                 .FirstOrDefaultAsync(x => x.Id == id);
-
+            await _fileServices.RemoveImagesFromDatabase(id);
             _context.RealEstates.Remove(realEstateId);
             await _context.SaveChangesAsync();
 
@@ -95,5 +105,7 @@ namespace Shop.ApplicationServices.Services
 
             return result;
         }
+
+
     }
 }

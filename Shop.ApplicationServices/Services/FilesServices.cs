@@ -5,7 +5,6 @@ using Shop.Core.Dto;
 using Shop.Core.ServiceInterface;
 using Shop.Data;
 
-
 namespace Shop.ApplicationServices.Services
 {
     public class FilesServices : IFileServices
@@ -13,11 +12,7 @@ namespace Shop.ApplicationServices.Services
         private readonly IHostEnvironment _webHost;
         private readonly ShopContext _context;
 
-        public FilesServices
-            (
-                IHostEnvironment webHost,
-                ShopContext context
-            )
+        public FilesServices(IHostEnvironment webHost, ShopContext context)
         {
             _webHost = webHost;
             _context = context;
@@ -42,12 +37,11 @@ namespace Shop.ApplicationServices.Services
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
                         image.CopyTo(fileStream);
-
                         FileToApi path = new FileToApi
                         {
                             Id = Guid.NewGuid(),
                             ExistingFilePath = uniqueFileName,
-                            SpaceshipId = spaceship.Id,
+                            SpaceshipId = spaceship.Id
                         };
 
                         _context.FileToApis.AddAsync(path);
@@ -63,8 +57,7 @@ namespace Shop.ApplicationServices.Services
                 var imageId = await _context.FileToApis
                     .FirstOrDefaultAsync(x => x.ExistingFilePath == dto.ExistingFilePath);
 
-                var filePath = _webHost.ContentRootPath + "\\multipleFileUpload\\" 
-                    + imageId.ExistingFilePath;
+                var filePath = _webHost.ContentRootPath + "\\multipleFileUpload\\" + imageId.ExistingFilePath;
 
                 if (File.Exists(filePath))
                 {
@@ -83,8 +76,7 @@ namespace Shop.ApplicationServices.Services
             var imageId = await _context.FileToApis
                 .FirstOrDefaultAsync(x => x.Id == dto.Id);
 
-            var filePath = _webHost.ContentRootPath + "\\multipleFileUpload\\"
-                + imageId.ExistingFilePath;
+            var filePath = _webHost.ContentRootPath + "\\multipleFileUpload\\" + imageId.ExistingFilePath;
 
             if (File.Exists(filePath))
             {
@@ -131,6 +123,18 @@ namespace Shop.ApplicationServices.Services
             await _context.SaveChangesAsync();
 
             return image;
+        }
+
+        public async Task<FileToDatabase> RemoveImagesFromDatabase(Guid id)
+        {
+            var images = await _context.FileToDatabases
+                .Where(x => x.RealEstateId == id)
+                .ToArrayAsync();
+
+            _context.FileToDatabases.RemoveRange(images);
+            await _context.SaveChangesAsync();
+
+            return null;
         }
     }
 }

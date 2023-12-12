@@ -325,3 +325,4 @@ C:\Users\clash\OneDrive\Desktop\shop\ShopTAR\Shop\obj\Debug\net6.0\refint\Shop.d
 C:\Users\clash\OneDrive\Desktop\shop\ShopTAR\Shop\obj\Debug\net6.0\Shop.pdb
 C:\Users\clash\OneDrive\Desktop\shop\ShopTAR\Shop\obj\Debug\net6.0\Shop.genruntimeconfig.cache
 C:\Users\clash\OneDrive\Desktop\shop\ShopTAR\Shop\obj\Debug\net6.0\ref\Shop.dll
+C:\Users\opilane\source\repos\ShopTAR\Shop\bin\Debug\net6.0\libman.json

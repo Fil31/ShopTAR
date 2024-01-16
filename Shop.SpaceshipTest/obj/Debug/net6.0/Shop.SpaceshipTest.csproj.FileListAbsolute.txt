@@ -162,3 +162,8 @@ C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\obj\Debug\net6.0\refint
 C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\obj\Debug\net6.0\Shop.SpaceshipTest.pdb
 C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\obj\Debug\net6.0\Shop.SpaceshipTest.genruntimeconfig.cache
 C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\obj\Debug\net6.0\ref\Shop.SpaceshipTest.dll
+C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\opilane\source\repos\ShopTAR\Shop.SpaceshipTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

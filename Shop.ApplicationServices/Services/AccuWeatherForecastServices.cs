@@ -1,8 +1,8 @@
-﻿using Shop.Core.Dto.AccuWeatherDtos;
-using Nancy.Json;
+﻿using Nancy.Json;
+using Nancy.Responses;
+using Shop.Core.Dto.AccuWeatherDtos;
 using Shop.Core.ServiceInterface;
 using System.Net;
-using Nancy.Responses;
 
 namespace Shop.ApplicationServices.Services
 {
@@ -10,18 +10,26 @@ namespace Shop.ApplicationServices.Services
     {
         public async Task<AccuWeatherResultDto> AccuWeatherResult(AccuWeatherResultDto dto)
         {
-            string apiKey = "hxoegsNkWJ2nRk3vP5t9WtM2ujEtFwbQ"; // 
+            /* string apiKey = "yourAPIkey"; */
+            string apiKey = "yourAPIkey"; // 
             string url = $"http://dataservice.accuweather.com/locations/v1/cities/search?apikey={apiKey}&q={dto.City}";
 
             using (WebClient client = new WebClient())
             {
                 string json = client.DownloadString(url);
                 AccuWeatherResponseRootDto weatherResult = new JavaScriptSerializer().Deserialize<List<AccuWeatherResponseRootDto>>(json).FirstOrDefault();
+
                 dto.Key = weatherResult.Key;
+
                 string url2 = $"http://dataservice.accuweather.com/forecasts/v1/daily/1day/{dto.Key}?apikey={apiKey}";
                 json = client.DownloadString(url2);
                 AccuWeatherForecastResponseRootDto forecastResult = new JavaScriptSerializer().Deserialize<AccuWeatherForecastResponseRootDto>(json);
+
                 dto.TemperatureMin = forecastResult.DailyForecasts.FirstOrDefault().Temperature.Minimum.Value;
+                /*
+                    To convert from Fahrenheit to Celsius:
+                        C = (F – 32) * 5 / 9;
+                 */
                 if (forecastResult.DailyForecasts.FirstOrDefault()?.Temperature.Minimum.Unit == "F")
                     dto.TemperatureMin = (dto.TemperatureMin - 32) * 5 / 9;
 
